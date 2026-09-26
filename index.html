@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080c20">
+  <meta name="description" content="Muhammad Khubaib, Senior AI Engineer building production LLM systems, hybrid retrieval, agentic search, and applied NLP research.">
+  <title>Muhammad Khubaib · AI Engineer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="workstation">
+  <div class="hardware" aria-hidden="true"></div>
+  <div class="screen">
+    <nav aria-label="Main navigation">
+      <a href="#home"><small>01</small> HOME</a><a href="#systems"><small>02</small> SYSTEMS</a><a href="#projects"><small>03</small> PROJECTS</a><a href="#research"><small>04</small> RESEARCH</a><a href="#about"><small>05</small> ABOUT / CONTACT</a>
+    </nav>
+    <div class="viewport">
+    <main id="main">
+      <section id="home" data-title="Home">
+        <div class="hero">
+          <div class="hero-copy"><h1 tabindex="-1">MUHAMMAD<br><span>KHUBAIB</span><br>MUKADDAM<span class="cursor" aria-hidden="true">_</span></h1><p class="role">Senior AI Engineer <span>/</span> QLU.ai</p><p class="intro">Systems that <strong>retrieve, reason, and act.</strong></p><p class="muted description">Connecting language models with the right evidence.<br>From enterprise search to context-aware agents.</p><div class="actions"><a class="button primary" href="#systems">EXPLORE MY WORK <span>↗</span></a><a class="button" href="#about">LET'S TALK <span>↗</span></a></div></div>
+          <div class="portrait-shell"><div class="portrait visual" role="img" aria-label="Muhammad Khubaib profile artwork" style="--image: url('public/images/khubaib-portrait.jpg')"><div class="portrait-art" aria-hidden="true"><span>MK</span><div class="orbit"></div></div><div class="image-layer"></div><span class="image-corner" aria-hidden="true">[M.K.M]</span></div><div class="portrait-caption"><span>HUMAN BEHIND THE SYSTEMS</span><span class="pink">↗</span></div></div>
+        </div>
+        <div class="specialties"><span>HYBRID RAG</span><i>+</i><span>AGENTIC SEARCH</span><i>+</i><span>DOCUMENT INTELLIGENCE</span><i>+</i><span>APPLIED NLP</span></div>
+        <div class="signal-grid"><a class="signal-card" href="#systems"><span class="card-number">[ BUILD ]</span><h3>Production AI</h3><p>Enterprise retrieval, conversational search, and document pipelines at QLU.ai.</p><span class="text-link">EXPLORE SYSTEMS ↗</span></a><a class="signal-card" href="#projects"><span class="card-number pink">[ EXPLORE ]</span><h3>AI Agent Lens</h3><p>A working project from my personal lab. Open the live application and explore.</p><span class="text-link">VISIT THE LAB ↗</span></a><a class="signal-card" href="#research"><span class="card-number">[ RESEARCH ]</span><h3>From paper to practice</h3><p>Applied NLP, promise verification, narrative understanding, and forecasting.</p><span class="text-link">READ THE RESEARCH ↗</span></a></div>
+        <p class="closing-note">The right evidence comes before the answer.<span aria-hidden="true"> ▪</span></p>
+      </section>
+
+      <section id="systems" data-title="Production systems">
+        <h1 class="page-title" tabindex="-1">SYSTEMS THAT <span>DELIVER.</span></h1><p class="page-intro">LLMs connected to real business information. Selected work built at QLU.ai; source repositories are private.</p>
+        <div class="cards">
+          <article class="project-card"><div class="card-body"><p class="kicker">QLU.AI / PRIVATE SOURCE</p><h2>Enterprise Intelligence & RAG</h2><p>An enterprise assistant that retrieves evidence across emails, meetings, transcripts, contacts, and organizational data.</p><details><summary>Inside the system <span>+</span></summary><p>Built tool-driven workflows for call preparation, transcript-aware answers, interaction summaries, and organization-level insights. Hybrid retrieval connects semantic search with lexical and structured information.</p></details><div class="tags"><span>Python</span><span>FastAPI</span><span>Qdrant</span><span>Elasticsearch</span><span>PostgreSQL</span></div></div></article>
+          <article class="project-card"><div class="card-body"><p class="kicker">QLU.AI / PRIVATE SOURCE</p><h2>People & Company Search</h2><p>Natural-language requests become structured filters and semantic intent, with results delivered progressively.</p><details><summary>Inside the system <span>+</span></summary><p>Architected a multi-stage pipeline with concurrent company generation, profile retrieval over SSE, relevance scoring, company gating, result pruning, and multi-turn intent handling.</p></details><div class="tags"><span>FastAPI</span><span>PostgreSQL</span><span>Vector Search</span><span>SSE</span></div></div></article>
+          <article class="project-card"><div class="card-body"><p class="kicker">QLU.AI / PRIVATE SOURCE</p><h2>Conversational Outreach</h2><p>Personalized, multi-channel sequences created through conversation, across LinkedIn, Gmail, and Outlook.</p><details><summary>Inside the system <span>+</span></summary><p>Helped transform the outreach workflow to support 30+ recipients and up to 10 rounds per sequence. Improved prompting and profile context handling, with approximately 15% fewer personalization errors across repeated validation using 20+ prompt scenarios.</p></details><div class="tags"><span>Python</span><span>LLMs</span><span>Prompt Engineering</span><span>API Integrations</span></div></div></article>
+          <article class="project-card"><div class="card-body"><p class="kicker">QLU.AI / PRIVATE SOURCE</p><h2>Document Intelligence</h2><p>Scattered emails, calendar events, transcripts, conversations, and PDFs become retrieval-ready context.</p><details><summary>Inside the system <span>+</span></summary><p>Developed ingestion and enrichment pipelines covering transcription, entity extraction, exclusion rules, organization updates, semantic indexing, and structured summaries.</p></details><div class="tags"><span>AsyncIO</span><span>Qdrant</span><span>ClickHouse</span><span>Elasticsearch</span></div></div></article>
+        </div>
+      </section>
+
+      <section id="projects" data-title="Projects">
+        <h1 class="page-title" tabindex="-1">BUILT TO <span>EXPLORE.</span></h1><p class="page-intro">Working applications, open-source contributions, and experiments across AI, software, and spatial data.</p>
+        <div class="cards"><article class="project-card"><a href="https://ai-agent-lens.vercel.app/" class="visual system-art lens-art" aria-label="Open AI Agent Lens" style="--image: url('public/images/ai-agent-lens.jpg')"><span class="art-label">AI / AGENT / LENS</span><div class="image-layer"></div></a><div class="card-body"><p class="kicker">PERSONAL PROJECT / LIVE APP</p><h2>AI Agent Lens</h2><p>A working project from my personal AI lab.</p><a class="text-link" href="https://ai-agent-lens.vercel.app/">OPEN APPLICATION ↗</a></div></article><article class="project-card"><a href="https://darlab-pakistan.github.io/koh-e-atlas/" class="visual system-art map-art" aria-label="Explore Koh-e-Atlas" style="--image: url('public/images/koh-e-atlas.jpg')"><span class="art-label">KARACHI / URBAN ATLAS</span><div class="image-layer"></div></a><div class="card-body"><p class="kicker">COLLABORATIVE PROJECT / GEOSPATIAL</p><h2>Koh-e-Atlas</h2><p>Contributed to Karachi's open-source urban atlas and built a mobile application making geospatial datasets accessible to the public.</p><div class="tags"><span>Flutter</span><span>QGIS</span><span>Firebase</span></div><a class="text-link" href="https://darlab-pakistan.github.io/koh-e-atlas/">EXPLORE THE ATLAS ↗</a></div></article></div>
+        <div class="section-heading"><h2><span>ARCHIVE /</span> MORE EXPERIMENTS</h2></div><div class="archive"><div><h3>Urdu NLP Miners</h3><p>Summarization and sentiment analysis with mT5, Gemma, and XLM-R.</p></div><div><h3>Deep Reinforcement Learning</h3><p>DQN variants and parameter-space noise under dense and sparse rewards.</p></div><div><h3>Ray Tracer</h3><p>A rendering engine using bounding volume hierarchy trees.</p></div><div><h3>RISC-V Processor</h3><p>A five-stage pipelined processor implementation.</p></div><div><h3>Khidmat</h3><p>A database management system designed for an NGO.</p></div><div><h3>Selenium Mobile Crawler</h3><p>Automated mobile-oriented web data collection.</p></div></div><div class="actions"><a class="button primary" href="https://github.com/Khubaib-96">CURRENT GITHUB ↗</a><a class="button" href="https://github.com/Khubaib2002">EARLIER REPOSITORIES ↗</a></div>
+      </section>
+
+      <section id="research" data-title="Research">
+        <h1 class="page-title" tabindex="-1">ASK BETTER <span>QUESTIONS.</span></h1><p class="page-intro">Exploring language, evidence, and prediction through applied machine learning.</p>
+        <article class="research-feature"><div class="visual system-art weather-art" role="img" aria-label="Weather forecasting research illustration" style="--image: url('public/images/weather-forecasting.jpg')"><span class="art-label">SPATIAL × TEMPORAL</span><div class="image-layer"></div></div><div><p class="kicker">IEEE ICMI / 2026</p><h2>Hyper-Localised Weather Forecasting</h2><p>Spatio-temporal forecasting with LSTM, SARIMA-X, Transformers, and Kriging-based spatial interpolation. Connecting geospatial processing with weather advisory generation.</p><a class="text-link" href="https://ieeexplore.ieee.org/document/11539765">READ PAPER ↗</a></div></article>
+        <div class="papers"><article><span class="paper-index">02</span><div><p class="kicker">ACL SEMEVAL / 2025</p><h2>Oath Breakers: PromiseEval</h2><p>Identifying and verifying corporate ESG promises through evidence classification and timeline verification.</p><a class="text-link" href="https://aclanthology.org/2025.semeval-1.225/">READ PAPER ↗</a></div></article><article><span class="paper-index">03</span><div><p class="kicker">ACL SEMEVAL / 2025</p><h2>NarrativeMiners</h2><p>Entity roles, hierarchical narratives, and explanation generation for understanding manipulative narratives in online news.</p><a class="text-link" href="https://aclanthology.org/2025.semeval-1.215/">READ PAPER ↗</a></div></article><article><span class="paper-index">04</span><div><p class="kicker">CLEF CHECKTHAT! / 2024</p><h2>Subjectivity & Check-Worthiness</h2><p>Fine-tuned transformer models for detecting subjectivity and identifying check-worthy claims in news.</p><a class="text-link" href="https://www.semanticscholar.org/paper/Checker-Hacker-at-CheckThat!-2024%3A-Detecting-Claims-Zehra-Chandani/9aaf0b8b49327fe9f372bee2d88faf0b23a1e26e">VIEW PUBLICATION ↗</a></div></article></div>
+      </section>
+
+      <section id="about" data-title="About & contact">
+        <div class="about-grid"><div><h2>From research to production.</h2><p>I work at the intersection of language models, retrieval, and backend engineering, building systems that can work with complex business information.</p><p>My path spans applied NLP research, geospatial tools, and production AI. Outside engineering, I enjoy badminton and fantasy stories, and have spent time teaching and supporting community education.</p><div class="education"><span class="kicker">HABIB UNIVERSITY / COMPUTER SCIENCE</span><strong>3.82<span> / 4.00 CGPA</span></strong><p>Dean's List · 2025</p></div></div><aside class="contact-panel"><p class="kicker">OPEN A CONVERSATION</p><h2>Let's build something<br><span>worth using.</span></h2><details class="email-options"><summary class="button primary">EMAIL ME <span>↗</span></summary><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=khubaib.22mukaddam%40gmail.com" target="_blank" rel="noopener noreferrer">Compose in Gmail ↗</a><a href="mailto:khubaib.22mukaddam@gmail.com">Open your mail app ↗</a><p>Or copy my email address:</p><code>khubaib.22mukaddam@gmail.com</code></details><a href="https://www.linkedin.com/in/khubaib-mukaddam-4998ba220/">LinkedIn <span>↗</span></a><a href="https://github.com/Khubaib-96">GitHub · current <span>↗</span></a><a href="https://github.com/Khubaib2002">GitHub · earlier work <span>↗</span></a></aside></div>
+        <div class="section-heading"><h2><span>TOOLKIT /</span> WHAT I WORK WITH</h2></div><div class="signal-grid toolkit"><div><h3>AI, ML & NLP</h3><p>Python · PyTorch · TensorFlow · Hugging Face · LLM APIs · Transformers</p></div><div><h3>Retrieval & Data</h3><p>Qdrant · Elasticsearch · Whoosh · PostgreSQL · ClickHouse · SQL</p></div><div><h3>Backend & Infrastructure</h3><p>FastAPI · AsyncIO · SSE · AWS · GCP · Git</p></div></div>
+        <div class="section-heading"><h2><span>MILESTONES /</span> SELECTED HIGHLIGHTS</h2></div><ul class="milestones"><li><span>2026</span>Promoted to Senior AI Engineer at QLU.ai</li><li><span>2026</span>Weather forecasting publication · IEEE ICMI</li><li><span>2025</span>Research published at SemEval</li><li><span>2023</span>1st place · Design for Climate Resilience Hackathon</li><li><span>2023</span>Top 50 nationwide · ICPC</li></ul>
+      </section>
+    </main>
+    </div>
+  </div>
+  <div class="hardware bottom-hardware"><span>KHUBAIB<span class="pink">_</span>OS</span><div class="music-player" role="group" aria-label="Background music">
+    <audio id="music" src="public/audio/track.mp3" preload="none" loop></audio>
+    <button id="music-play" type="button" aria-label="Play background music">▶ PLAY</button>
+    <button id="music-stop" type="button" aria-label="Stop background music">■ STOP</button>
+    <span id="music-status" role="status">MUSIC OFF</span>
+  </div><span>SYSTEM ONLINE <span class="dot"></span></span></div>
+</div>
+</body>
+</html>
